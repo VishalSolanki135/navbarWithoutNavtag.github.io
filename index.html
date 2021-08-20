@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+      <meta charset="utf-8">
+      <title></title>
+      <style media="screen">
+            #container{
+                  width:250px;
+                  height:120px;
+                  position:relative;
+                  /* border:#000 solid 1px; */
+            }
+            #c2{
+                  width:100px;
+                  height:50px;
+                  /* border:#000 1px solid; */
+                  top:20px;
+                  left:50px;
+                  position:absolute;
+            }
+            #c3 {
+                  margin-left: 20px;
+            }
+            #home{
+                  top:25px;
+                  left: 120px;
+                  position: absolute;
+            }
+            #practical1
+            {
+                  top:25px;
+                  left: 270px;
+                  position: absolute;
+            }
+            #practical2
+            {
+                  top:25px;
+                  left: 450px;
+                  position: absolute;
+            }
+            #practical3
+            {
+                  top:25px;
+                  left: 620px;
+                  position: absolute;
+            }
+            #practical4
+            {
+                  top:25px;
+                  left: 790px;
+                  position: absolute;
+            }
+            #text1{
+                  margin-left: 350px;
+                  color: white
+            }
+            #mern {
+                  margin-left: 260px;
+                  height: 300px;
+                  width: 700px;
+            }
+            #text2 {
+                  margin-left: 400px;
+                  color: white;
+            }
+
+
+      </style>
+</head>
+<body style="background-color: grey">
+      <!-- shape="rect"  coords = x y x y (34,44,270,350) i.e 34 from left margin and 270 from left margin and 44 from top margin and 350 from top margin-->
+
+      <div id="container">
+            <div id="c3"><img src="white-background.png" height="130" width="1200"></div>
+            <div id="c2"><img src="grey.jpg" height="90" width="1100" usemap="#workmap" alt="grey image"></div>
+            <h1 style="color: white" id="home">Home</h1>
+            <h1 style="color: white" id="practical1">Practical1</h1>
+            <h1 style="color: white" id="practical2">Practical2</h1>
+            <h1 style="color: white" id="practical3">Practical3</h1>
+            <h1 style="color: white" id="practical4">Practical4</h1>
+      </div>
+      <h1 id="text1">Introduction to Front-End Technologies</h1>
+      <img src="mern2.png" alt="mern image"id="mern" usemap="#mernMap">
+      <h3 id="text2">Click on an icon to know more about the technology!</h1>
+
+      <map name="workmap">
+            <area shape="rect" coords="34,20,190,70" alt="Computer" href="#">
+            <area shape="rect" coords="210,20,370,70" alt="Phone" href="practical1.html">
+            <area shape="rect" coords="390,20,530,70" alt="Cup of coffee" href="practical2.html">
+            <area shape="rect" coords="550,20,700,70" alt="Cup of coffee" href="practical3.html">
+            <area shape="rect" coords="720,20,890,70" alt="Cup of coffee" href="practical4.html">
+      </map>
+      <map name="mernMap">
+            <area shape="circle" coords="190,180,40" href="https://www.beta-labs.in/p/mongodb.html" alt="">
+            <area shape="circle" coords="300,180,40" href="https://www.beta-labs.in/p/expressjs.html" alt="">
+            <area shape="circle" coords="400,180,40" href="https://www.beta-labs.in/p/reactjs.html" alt="">
+            <area shape="circle" coords="510,180,40" href="https://nodejs.org/en/" alt="">
+      </map>
+</body>
+</html>
